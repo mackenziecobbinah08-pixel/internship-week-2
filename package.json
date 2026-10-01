@@ -1,0 +1,22 @@
+{
+  "name": "ghana-events-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A multi-page React app for discovering festivals, concerts, cultural events and festivals across Ghana.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vite build --ssr src/smoke.jsx --outDir dist-smoke --logLevel error && node dist-smoke/smoke.js"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.2"
+  }
+}
